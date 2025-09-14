@@ -10,14 +10,12 @@ export const theme = createTheme({
     fontSize: 12,
   },
   components: {
-    MuiCard: {
-      defaultProps: {
-        variant: "outlined",
-      },
+    MuiCard: {     
       styleOverrides: {
         root: {
           boxShadow: 'none',
           border: "1px solid #E0E0E0",
+          borderRadius :"8px",
 
           "&:hover": {
             borderColor: '#0097A7',

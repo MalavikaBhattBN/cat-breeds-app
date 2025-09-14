@@ -30,3 +30,7 @@ export interface CatGridProps {
     initialList: any[];
 }
 
+export interface CatCardProps {
+    url: string,
+    breed: Breed
+}

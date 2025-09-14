@@ -12,6 +12,7 @@ Figma link: [View Design](https://www.figma.com/design/sFilFuRlo9dCBbEjZdEFge/-O
 Download Node.js latest version
 VS code
 Checkout code from [Github](https://github.com/MalavikaBhattBN/cat-breeds-app.git)
+API Documentation from [API Docs](https://thecatapi.com/)
 
 ## Environment Variable
 create '.env.local' file in the root of project
