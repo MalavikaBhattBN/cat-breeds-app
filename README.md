@@ -1,8 +1,29 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
+## Overview of cat-breeds-app
+This is a  responsive Next.js + MUI Cat breed categorization application. The application displays cats on initial load. The search bar helps to filter the cats based on the available breeds.
 
-First, run the development server:
+## Design
+Figma link: [View Design](https://www.figma.com/design/sFilFuRlo9dCBbEjZdEFge/-Origianl--Give-me-a-cat-%F0%9F%90%88?node-id=0-1&p=f&t=kPdQGbpmEfDTVf4Z-0)
+
+## Setup
+## Requirements
+Download Node.js latest version
+VS code
+Checkout code from [Github](https://github.com/MalavikaBhattBN/cat-breeds-app.git)
+
+## Environment Variable
+create '.env.local' file in the root of project
+
+Add below variables
+CAT_API_KEY=live_10pUS3xlWhsefPS3QltaZZFTD8BR2ieBXUAHvnIfyHVDA2L46heX1QLgAwX1xTm
+
+## Install dependencies
+``` bash 
+npm install 
+```
+Run the development server:
 
 ```bash
 npm run dev
@@ -16,16 +37,6 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Environment Variable
-create '.env.local' file in the root of project
-
-Add below variables
-NEXT_PUBLIC_CAT_API_KEY=live_10pUS3xlWhsefPS3QltaZZFTD8BR2ieBXUAHvnIfyHVDA2L46heX1QLgAwX1xTm
-NEXT_PUBLIC_CAT_API_BASE_URL=https://api.thecatapi.com/v1
 
 ## Learn More
 
@@ -41,5 +52,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# cat-breeds-app
-Application to display cats and search by their breeds
+
